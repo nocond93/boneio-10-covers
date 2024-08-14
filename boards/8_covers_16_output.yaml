@@ -196,7 +196,7 @@ switch:
     restore_mode: always off
 
 - platform: gpio
-    id: cover_open_09_out18
+    id: cover_close_09_out18
     pin:
       pcf8574: pcf_left
       number: 1
@@ -220,7 +220,7 @@ switch:
     restore_mode: always off
 
 - platform: gpio
-    id: cover_open_10_out20
+    id: cover_close_10_out20
     pin:
       pcf8574: pcf_left
       number: 3
