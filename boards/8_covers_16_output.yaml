@@ -191,7 +191,7 @@ switch:
       mode:
         output: true
       inverted: true
-    interlock: &cover_interlock_01 [cover_open_01_out01, cover_close_01_out02]
+    interlock: &cover_interlock_09 [cover_open_09_out17, cover_close_09_out18]
     interlock_wait_time: 5ms
     restore_mode: always off
 
@@ -203,7 +203,7 @@ switch:
       mode:
         output: true
       inverted: true
-    interlock: &cover_interlock_01 [cover_open_01_out01, cover_close_01_out02]
+    interlock: *cover_interlock_09 
     interlock_wait_time: 5ms
     restore_mode: always off
 
@@ -215,7 +215,7 @@ switch:
       mode:
         output: true
       inverted: true
-    interlock: &cover_interlock_01 [cover_open_01_out01, cover_close_01_out02]
+    interlock: &cover_interlock_10 [cover_open_10_out19, cover_close_10_out20]
     interlock_wait_time: 5ms
     restore_mode: always off
 
@@ -227,7 +227,7 @@ switch:
       mode:
         output: true
       inverted: true
-    interlock: &cover_interlock_01 [cover_open_01_out01, cover_close_01_out02]
+    interlock: *cover_interlock_10
     interlock_wait_time: 5ms
     restore_mode: always off
 
